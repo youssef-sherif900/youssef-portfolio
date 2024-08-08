@@ -4,7 +4,7 @@ import { useTransition } from "react";
 import Rive from "@rive-app/react-canvas";
 
 function ContactSection() {
-  const form = useRef(null);
+  const form = useRef<HTMLFormElement | null>(null);
 
   const [isPending, startTransition] = useTransition();
 
@@ -13,12 +13,13 @@ function ContactSection() {
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
+
     startTransition(async () => {
       await emailjs
         .sendForm(
-          process.env.YOUR_SERVICE_ID,
-          process.env.YOUR_TEMPLATE_ID,
-          form.current,
+          process.env.YOUR_SERVICE_ID!,
+          process.env.YOUR_TEMPLATE_ID!,
+          form.current!,
           {
             publicKey: process.env.YOUR_PUBLIC_KEY,
           }
@@ -32,7 +33,7 @@ function ContactSection() {
           }
         );
 
-      form?.current?.reset();
+      form.current?.reset();
     });
   }
 

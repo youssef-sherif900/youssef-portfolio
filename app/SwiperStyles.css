@@ -1,0 +1,43 @@
+.swiper-button-next,
+.swiper-button-prev {
+  color: #00ff00; /* Change this to your desired color */
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #00ff009d; /* Color on hover */
+}
+
+
+
+
+
+
+/* pagination */
+
+
+.swiper-pagination-bullet {
+    background: #00ff0097;; /* Change this to your desired color */
+    opacity: 1; /* Ensure bullets are fully visible */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #00ff00;; /* Change this to your desired active color */
+  }
+  
+  /* Optional: Customize pagination bullet size */
+  .swiper-pagination-bullet {
+    width: 12px; /* Width of pagination bullets */
+    height: 12px; /* Height of pagination bullets */
+  }
+  
+  /* Optional: Customize pagination bullet size on active */
+  .swiper-pagination-bullet-active {
+    width: 16px; /* Width of active pagination bullet */
+    height: 16px; /* Height of active pagination bullet */
+  }
+
+  .swiper-slide{
+    color: green;
+  }
+  

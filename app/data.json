@@ -1,0 +1,76 @@
+[
+    {
+        "name": "multi-step-form-main:",
+        "tech": [
+            "React",
+            "Next Js",
+            "Tailwind",
+            "Material-UI",
+            "Bootstrap",
+            "Redux",
+            "react-hook-form"
+        ],
+        "demo": "https://multi-step-form-main-phi.vercel.app/",
+        "img":"/images/form.jpg"
+    },
+    {
+        "name": " Rest-country-api",
+        "tech": [
+            "React",
+            "Next Js",
+            "Tailwind",
+            "Material-UI",
+            "Redux",
+            "Axios"
+        ],
+        "demo": "https://rest-countries-api-delta-seven.vercel.app/",
+        "img":"/images/rest-country.jpg"
+    },
+    {
+        "name": "E-comerce-product-main",
+        "tech": [
+            "React",
+            "Bootstrap",
+            "Material-UI"
+        ],
+        "demo": "https://youssef-sherif900.github.io/ecommerce-product-page-main/",
+        "img":"/images/ecommerce.jpg"
+    },
+    {
+        "name": "card-details-form-main",
+        "tech": [
+            "React",
+            "Bootstrap"
+        ],
+        "demo": "https://youssef-sherif900.github.io/card-details-form-main/",
+        "img":"/images/creditcard.jpg"
+    },
+    {
+        "name": "static-job-listing-master",
+        "tech": [
+            "React",
+            "Tailwind"
+        ],
+        "demo": "https://youssef-sherif900.github.io/static-job-listing-master/",
+        "img":"/images/static-job.jpg"
+    },
+    {
+        "name": "youtube-clone",
+        "tech": [
+            "React",
+            "React-router-dom",
+            "Material-UI"
+        ],
+        "demo": "https://youssef-sherif900.github.io/Mini-youtube-clone/",
+        "img":"/images/youtube-clone.jpg"
+    },
+    {
+        "name": "Keeper",
+        "tech": [
+            "React",
+            "Material-UI"
+        ],
+        "demo": "https://youssef-sherif900.github.io/keeper/",
+        "img":"/images/keeper.jpg"
+    }
+]

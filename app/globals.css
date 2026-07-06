@@ -21,13 +21,13 @@ html {
 }
 
 body {
-  color: green;
-  background:black;
+  color: rgb(var(--foreground-rgb));
+  background: #000;
   font-weight: 500;
 }
 
-.homepage{
-  height: calc(100vh - 12rem);
+.homepage {
+  min-height: calc(100vh - 5rem);
 }
 
 @layer utilities {
@@ -48,7 +48,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: green; /* Thumb color */
+  background-color: #10b981; /* Emerald green thumb */
   border-radius: 10px; /* Roundness of thumb */
   border: 3px solid black; /* Border around thumb */
 }
